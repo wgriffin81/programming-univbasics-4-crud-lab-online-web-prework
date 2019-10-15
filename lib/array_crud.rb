@@ -27,7 +27,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  common_pets = ["dog", "cat", "snake", "bear"]
+  common_pets = array
   
   last_item = common_pets.pop
   
