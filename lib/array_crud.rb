@@ -37,15 +37,15 @@ end
 def remove_element_from_start_of_array(array)
   array = ["dog", "cat", "snake", "bear"]
   
-  common_pets.shift
+  array.shift
   
   p common_pets
 end
 
 def retrieve_element_from_index(array, index_number)
-  common_pets = ["dog", "cat", "snake", "bear"]
+  array = ["dog", "cat", "snake", "bear"]
   
-  common_pets[index_number]
+  array[index_number]
   
   
 end
