@@ -29,9 +29,9 @@ end
 def remove_element_from_end_of_array(array)
   common_pets = ["dog", "cat", "snake", "bear"]
   
-  common_pets.pop
+  last_item = common_pets.pop
   
-  p common_pets
+  p last_item
 end
 
 def remove_element_from_start_of_array(array)
