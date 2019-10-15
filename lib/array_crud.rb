@@ -9,7 +9,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  common_pets = ["dog", "cat", "snake", "bear"]
   
+  common_pets.push(element)
+  
+  p common_pets
 end
 
 def add_element_to_start_of_array(array, element)
