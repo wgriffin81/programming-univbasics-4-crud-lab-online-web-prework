@@ -44,7 +44,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   new_array = array
-  index_number = element
+  element = index_number
   
   new_array[element]
   
