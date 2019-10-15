@@ -64,5 +64,10 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
+  new_array = array
+  number = index_number
+  new_element = element
+  
+  new_array[number](new_element)
 
 end
