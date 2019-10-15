@@ -37,9 +37,9 @@ end
 def remove_element_from_start_of_array(array)
   array = ["dog", "cat", "snake", "bear"]
   
-  array.shift
+  first_item = common_pets.unshift
   
-  p common_pets
+  p first_item
 end
 
 def retrieve_element_from_index(array, index_number)
