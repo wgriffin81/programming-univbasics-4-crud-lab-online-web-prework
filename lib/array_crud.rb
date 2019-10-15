@@ -32,7 +32,6 @@ def remove_element_from_end_of_array(array)
   common_pets.pop
   
   p common_pets
-  p array
 end
 
 def remove_element_from_start_of_array(array)
