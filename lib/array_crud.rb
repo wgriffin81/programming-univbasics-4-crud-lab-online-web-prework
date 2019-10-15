@@ -68,6 +68,6 @@ def update_element_from_index(array, index_number, element)
   number = index_number
   new_element = element
   
-  new_array[number] << new_element
+  new_array[number] = new_element
 
 end
