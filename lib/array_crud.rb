@@ -37,7 +37,7 @@ end
 def remove_element_from_start_of_array(array)
   new_array = array
   
-  first_item = new_array.unshift
+  first_item = new_array.shift
   
   p first_item
 end
