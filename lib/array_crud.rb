@@ -18,14 +18,28 @@ end
 
 def add_element_to_start_of_array(array, element)
   
+  common_pets = ["dog", "cat", "snake", "bear"]
+  
+  common_pets.unshift(element)
+  
+  p common_pets
+  
 end
 
 def remove_element_from_end_of_array(array)
+  common_pets = ["dog", "cat", "snake", "bear"]
   
+  common_pets.pop
+  
+  p common_pets
 end
 
 def remove_element_from_start_of_array(array)
+  common_pets = ["dog", "cat", "snake", "bear"]
   
+  common_pets.shift
+  
+  p common_pets
 end
 
 def retrieve_element_from_index(array, index_number)
