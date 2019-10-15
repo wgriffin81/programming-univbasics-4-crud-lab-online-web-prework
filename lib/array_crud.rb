@@ -18,7 +18,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   
-  common_pets = ["dog", "cat", "snake", "bear"]
+  common_pets = array
   
   common_pets.unshift(element)
   
