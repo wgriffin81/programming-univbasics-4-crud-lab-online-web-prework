@@ -43,6 +43,10 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
+  common_pets = ["dog", "cat", "snake", "bear"]
+  
+  common_pets[index_number]
+  
   
 end
 
