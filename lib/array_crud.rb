@@ -35,9 +35,9 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  common_pets = array
+  new_array = array
   
-  first_item = common_pets.unshift
+  first_item = new_array.unshift
   
   p first_item
 end
